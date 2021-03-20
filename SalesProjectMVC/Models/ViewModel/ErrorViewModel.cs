@@ -1,6 +1,7 @@
 using System;
 
 namespace SalesProjectMVC.Models
+
 {
     public class ErrorViewModel
     {
