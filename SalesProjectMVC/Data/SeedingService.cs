@@ -32,7 +32,7 @@ namespace SalesProjectMVC.Data
             Seller s2 = new Seller(id: 2, name: "Maria Green", email: "maria@gmail.com", birthDate: new DateTime(1986,5,22), baseSalary: 1500.0, department: d2);
             Seller s3 = new Seller(id: 3, name: "Alex Grey", email: "alex@gmail.com", birthDate: new DateTime(1985,6,23), baseSalary: 2000.0, department: d3);
             Seller s4 = new Seller(id: 4, name: "Martha Red", email: "martha@gmail.com", birthDate: new DateTime(1984,7,24), baseSalary: 2500.0, department: d4);
-            Seller s5 = new Seller(id: 5, name: "Donald Blue", email: "donald@gmail.com", birthDate: new DateTime(1983,8,25), baseSalary: 175000.0, department: d1);
+            Seller s5 = new Seller(id: 5, name: "Donald Blue", email: "donald@gmail.com", birthDate: new DateTime(1983,8,25), baseSalary: 1750.0, department: d1);
             Seller s6 = new Seller(id: 6, name: "Alex Pink", email: "pink@gmail.com", birthDate: new DateTime(1989,9,26), baseSalary: 1800.0, department: d3);
 
             SalesRecord r1 = new SalesRecord(1, new DateTime(2018, 09, 25), 11000.0, SaleStatus.Billed, s1);
