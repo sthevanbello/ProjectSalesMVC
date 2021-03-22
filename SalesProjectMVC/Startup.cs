@@ -45,6 +45,7 @@ namespace SalesProjectMVC
             services.AddScoped<SeedingService>();
             services.AddScoped<SellerServices>();
             services.AddScoped<DepartmentService>();
+            services.AddScoped<SalesRecordService>();
 
         }
 
